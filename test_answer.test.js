@@ -5,5 +5,5 @@ test('receive [1, 2, 3, 4, 5] result is { "sumMin": 10, "sumMax": 14 }', async (
 });
 
 test('receive [7 69 2 221 8974] result is { "sumMin": 299, "sumMax": 9271 }', async () => {
-    expect(minMax([7, 69, 2, 221, 8974])).toEqual({ "sumMin": 299, "sumMax": 299 });
+    expect(minMax([7, 69, 2, 221, 8974])).toEqual({ "sumMin": 299, "sumMax": 9271 });
 });
